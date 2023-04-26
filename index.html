@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Document</title>
+<link href="src/css/common.css" rel="stylesheet"><link href="src/css/index.css" rel="stylesheet"></head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <header class="header-container pc-header"> <div class="top-layout"> <div class="max-center center"> <div class="logo"> <a href="/"> <img src="/public/images/logo.png"> </a> <a href="/"> <img src="/public/images/logo2.png"> </a> </div> <div class="contact"> <i class="icon iconfont icon-dianhua"></i> <div class="text"> <p>联系电话：</p> <p><a href="tel:18600832212">18600832213</a> 娄经理</p> <p><a href="tel:17310575071">17310575071</a> 王经理</p> </div> </div> </div> </div> <div class="bottom-layout"> <div class="max-center center"> <div class="nav-container"> <ul class="nav-list"> <li class="nav-item"> <a href="/">首页</a> </li> <li class="nav-item product"> <a href="product.html">产品中心</a> <div class="nav-sub-container"> <div class="sublist"> <a class="subitem on" href="product.html">DPU</a> <a class="subitem" href="product.html">以太网</a> <a class="subitem" href="product.html">InfiniBand</a> </div> <ul class="sub3-box-list"> <li class="sub3-box-item"> <dl class="sub3-list"> <dd class="sub3-item"> <div class="title"> <a href="product.html">BlueField-2</a> </div> </dd> </dl> </li> <li class="sub3-box-item"> <dl class="sub3-list"> <dd class="sub3-item"> <div class="title"> <a href="product.html">以太网线缆</a> </div> <a href="product.html">25G</a> <a href="product.html">100G</a> <a href="product.html">200G</a> <a href="product.html">400G</a> </dd> <dd class="sub3-item"> <div class="title"> <a href="product.html">以太网网卡</a> </div> <a href="product.html">ConnectX-4 Lx EN</a> <a href="product.html">ConnectX-5 EN</a> <a href="product.html">ConnectX-6</a> </dd> <dd class="sub3-item"> <div class="title"> <a href="product.html">以太网交换机</a> </div> <a href="product.html">SN2000 </a> <a href="product.html">SN3000</a> <a href="product.html">SN4000</a> </dd> </dl> </li> <li class="sub3-box-item"> <dl class="sub3-list"> <dd class="sub3-item"> <div class="title"> <a href="product.html">InfiniBand线缆</a> </div> <a href="product.html">100G EDR</a> <a href="product.html">200G HDR</a> </dd> <dd class="sub3-item"> <div class="title"> <a href="product.html">InfiniBand网卡</a> </div> <a href="product.html">ConnectX-5 VPI</a> <a href="product.html">ConnectX-6 VPI</a> </dd> <dd class="sub3-item"> <div class="title"> <a href="product.html">InfiniBand交换机</a> </div> <a href="product.html">100G EDR</a> <a href="product.html">200G HDR</a> </dd> </dl> </li> </ul> </div> </li> <li class="nav-item"> <a href="case.html">应用案例</a> </li> <li class="nav-item"> <a href="case.html">新闻资讯</a> </li> <li class="nav-item"> <a href="about.html">公司介绍</a> </li> <li class="nav-item"> <a href="support.html">支持</a> </li> </ul> </div> <div class="language"> <a href="">Cn</a> <span>/</span> <a href="">En</a> </div> <form action="" class="form-container"> <input type="text" placeholder="请输入要搜索的关键词"> <button type="submit" class="submit"> <i class="icon iconfont icon-sousuo"></i> </button> </form> </div> </div> </header> <header class="header-container m-header"> <div class="top-layout"> <div class="max-center center"> <a href="/" class="logo"> <img src="/public/images/logo.png"> </a> <div class="contact"> <div class="language"> <a href="">Cn</a> <span>/</span> <a href="">En</a> </div> <div class="menu"> <span></span><span></span><span></span> </div> </div> </div> </div> <div class="bottom-layout"> <div class="nav-container"> <ul class="nav-list"> <li class="nav-item"> <a href="/">首页</a> </li> <li class="nav-item product"> <div class="title"> <a href="product.html">产品中心</a> <i class="icon iconfont icon-arrow-down"></i> </div> <ul class="sublist"> <li class="subitem"> <div class="title"> <a href="">DPU</a> <i class="icon iconfont icon-arrow-down"></i> </div> <div class="sublist2"> <a href="" class="title">BlueField-2</a> </div> </li> <li class="subitem"> <div class="title"> <a href="">以太网</a> <i class="icon iconfont icon-arrow-down"></i> </div> <ul class="sublist2"> <li class="subitem2"> <div class="title"> <a href="">以太网线缆</a> <i class="icon iconfont icon-arrow-down"></i> </div> <div class="sublist3"> <a href="">25G</a> <a href="">100G</a> <a href="">200G</a> <a href="">400G</a> </div> </li> <li class="subitem2"> <div class="title"> <a href="">以太网网卡</a> <i class="icon iconfont icon-arrow-down"></i> </div> <div class="sublist3"> <a href="">ConnectX-4 Lx EN</a> <a href="">ConnectX-5 EN</a> <a href="">ConnectX-6</a> </div> </li> <li class="subitem2"> <div class="title"> <a href="">以太网网卡</a> <i class="icon iconfont icon-arrow-down"></i> </div> <div class="sublist3"> <a href="">ConnectX-4 Lx EN</a> <a href="">ConnectX-5 EN</a> <a href="">ConnectX-6</a> </div> </li> </ul> </li> <li class="subitem"> <div class="title"> <a href="">InfiniBand</a> <i class="icon iconfont icon-arrow-down"></i> </div> </li> </ul> </li> <li class="nav-item"> <a href="case.html">应用案例</a> </li> <li class="nav-item"> <a href="case.html">新闻资讯</a> </li> <li class="nav-item"> <a href="support.html">支持</a> </li> <li class="nav-item"> <a href="about.html">公司介绍</a> </li> </ul> </div> <form action="" class="form-container"> <input type="text" placeholder="请输入要搜索的关键词"> <button type="submit" class="submit"> <i class="icon iconfont icon-sousuo"></i> </button> </form> </div> </header>
+  <section class="banner-container">
+    <div class="banner-swiper swiper-container">
+      <ul class="banner-list swiper-wrapper">
+        <li class="banner-item swiper-slide">
+          <img src="/public/images/banner.png" alt="">
+        </li>
+        <li class="banner-item swiper-slide">
+          <img src="/public/images/banner.png" alt="">
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <section class="info-container">
+    <ul class="info-list max-center">
+      <li class="info-item">
+        <div class="title">高带宽</div>
+        <div class="cont">
+          迈络思支持<br>
+          10/25/40/56/100/200G<br>
+          等不同带宽的网口速率
+        </div>
+      </li>
+      <li class="info-item">
+        <div class="title">低延迟</div>
+        <div class="cont">
+          迈络思的交换机<br>
+          延迟为300纳秒<br>
+          保证了数据读取的高效
+        </div>
+      </li>
+      <li class="info-item">
+        <div class="title">不丢包</div>
+        <div class="cont">
+          迈络思网络生态<br>
+          可实现零丢包<br>
+          支持数据传输的完整性
+        </div>
+      </li>
+      <li class="info-item">
+        <div class="title">RDMA</div>
+        <div class="cont">
+          迈络思的核心技术：<br>
+          10/25/40/56/100/200G<br>
+          等不同带宽的网口速率
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- <section class="product-container">
+    <div class="title-module">
+      <div class="title">产品中心</div>
+      <div class="subtitle">Product Center</div>
+    </div>
+    <ul class="tab-list">
+      <li class="tab-item on">交换机</li>
+      <li class="tab-item">网卡</li>
+      <li class="tab-item">线缆</li>
+    </ul>
+    <ul class="pro-cate-list max-center">
+      <li class="pro-cate-item">
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R</p>
+        </a>
+      </li>
+      <li class="pro-cate-item">
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R2</p>
+        </a>
+      </li>
+      <li class="pro-cate-item">
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+        <a href="" class="pro-item">
+          <div class="img">
+            <img src="/public/images/pro1.jpg" alt="">
+          </div>
+          <p>Mellanox MSN2010-CB2R3</p>
+        </a>
+      </li>
+
+    </ul>
+  </section> -->
+  <section class="news-container">
+    <div class="title-module">
+      <div class="title">新闻中心</div>
+      <div class="desc">NEWS</div>
+    </div>
+    <!-- <nav class="news-cate-list max-center">
+      <a href="" class="news-cate-item on">公司动态</a>
+      <a href="" class="news-cate-item">行业资讯</a>
+    </nav> -->
+    <div class="news-box max-center">
+      <div class="news-box-list">
+        <div class="news-box-item">
+          <div class="left-layout">
+            <a href="">
+              <div class="img">
+                <img src="/public/images/news.png" alt="">
+                <!-- <div class="date">
+                  <div class="day">07</div>
+                  <div class="time">2022-09</div>
+                </div> -->
+              </div>
+              <div class="text">
+                <div class="title">这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，...
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="right-layout">
+            <ul class="news-list">
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="news-box-item">
+          <div class="left-layout">
+            <a href="">
+              <div class="img">
+                <!-- <img src="/public/imgs/home/news-img1.jpg" alt=""> -->
+                <div class="date">
+                  <div class="day">07</div>
+                  <div class="time">2022-09</div>
+                </div>
+              </div>
+              <div class="text">
+                <div class="title">电线电缆CPR认证</div>
+                <div class="desc">
+                  这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，这里是新闻的摘要内容，...
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="right-layout">
+            <ul class="news-list">
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+              <li class="news-item">
+                <div class="title">这里是新闻的标题这里是新闻的标题</div>
+                <div class="desc">
+                  这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分，这里是新闻的摘要部分。...
+                </div>
+                <div class="other">
+                  <div class="date">2022.05.22</div>
+                  <a href="" class="more">MORE</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="partner-container">
+    <div class="title-module">
+      <div class="title">合作伙伴</div>
+      <div class="subtitle">Partner</div>
+    </div>
+    <ul class="partner-list max-center">
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+      <li class="partner-item">
+        <a href="" class="partner-box">
+          <img src="/public/images/logo.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </section>
+    <!-- 引入公共页尾 -->
+    <footer class="footer-container"> <div class="top-layout max-center"> <div class="left-layout"> <div class="title">关于我们</div> <div class="content"> 本公司成立于2016年。公司一直从事于迈络思产品的销售。在制造、互联网、数据中心、电信等各个行业都有服务的客户。我们希望通过迈络思产品，为客户带去无损的生态网络，为客户的网络环境带去更加低延时，不丢包的价值。 </div> </div> <div class="right-layout"> <div class="title">联系我们</div> <div class="content"> <p> 联系电话：18600832213 17310575071 </p> <p> 联系邮箱：service@bj-joynet.com </p> <p> 联系地址：北京市海淀区马连洼北路8号B座605室 </p> <p> 与NVIDIA产品相关的图片或视频（完整或部分）的版权均归NVIDIA Corporation所有。 </p> </div> </div> </div> <div class="bottom-layout max-center"> <div class="cert"> <a href="https://beian.miit.gov.cn/">备案号：京ICP备2020032252号-1</a> </div> </div> </footer> <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="src/js/styles~about~case~case_view~index~product~product_view~support.js"></script><script src="src/js/vendors~about~case~case_view~index~product~product_view~support.js"></script><script src="src/js/index.js"></script></body>
+
+</html>
