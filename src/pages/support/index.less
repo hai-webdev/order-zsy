@@ -1,0 +1,51 @@
+@import "~@/assets/global.less";
+.banner-container {
+  height: 300px;
+  position: relative;
+  img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+.support-container {
+  padding-top: 30px;
+  padding-bottom: 80px;
+
+  .support-list {
+    .support-item {
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #eee;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: 0.6s;
+      &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      .flex(flex-start, flex-start);
+
+      .text {
+        flex: 1;
+
+        .title {
+          font-size: 18px;
+          font-weight: bold;
+          color: #000;
+          a{
+            color:inherit;
+          }
+        }
+      }
+      .icon{
+        font-size: 30px;
+      }
+    }
+  }
+}
+@import "./768.less" screen and (max-width:768px);

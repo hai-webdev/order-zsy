@@ -1,0 +1,65 @@
+.banner-container {
+  height: 160px;
+}
+.product-container {
+  padding: 30px 0;
+  .left-layout,
+  .right-layout {
+    width: 100%;
+  }
+  .right-layout {
+    padding-top: 30px;
+    .title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .desc {
+      font-size: 14px;
+      color: #000;
+      padding: 10px 0;
+    }
+    .price {
+      span {
+        font-size: 1.3em;
+      }
+    }
+    .params {
+      font-size: 13px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #eee;
+      table,
+      tbody {
+        width: 100%;
+      }
+      tr {
+        display: flex;
+        td {
+          display: block;
+          padding: 5px;
+          &:first-child {
+            width: 35%;
+          }
+        }
+      }
+    }
+    .btns {
+      .flex();
+      a {
+        .flex();
+        width: calc(50% - 5px);
+        height: 36px;
+        font-size: 14px;
+        &:first-child {
+          margin-right: 5px;
+        }
+        &:last-child {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+.description-container {
+  padding-bottom: 30px;
+}
